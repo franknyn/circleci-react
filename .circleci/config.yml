@@ -27,7 +27,6 @@ jobs:
       - run: yarn test
 
       - run: yarn build
-      
+      - run: echo ${NETLIFY_AUTH_TOKEN}      
       - run: yarn netlify:deploy
       
-      - run: echo ${NETLIFY_AUTH_TOKEN}
