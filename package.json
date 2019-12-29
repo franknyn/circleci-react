@@ -12,7 +12,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "netlify:deploy": "echo $NETLIFY_AUTH_TOKEN"
+    "netlify:deploy": "echo $NETLIFY_AUTH_TOKEN && echo \"hey there\""
   },
   "eslintConfig": {
     "extends": "react-app"
